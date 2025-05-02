@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" href="./Css/responsive.css" />
+    <script src="./Js/script.js" defer></script>
+    <title>Travel Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <h1>TRAVOL<i class="fa-solid fa-plane-departure"></i></h1>
+          </div>
+          <ul>
+            <div class="btn">
+              <i class="fas fa-times close-btn"></i>
+            </div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#choose-place">Tours</a></li>
+            <li><a href="#top-destination">Destination</a></li>
+            <li><a href="#travel-countries">Gallery</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+          <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main id="home">
+      <div class="slide-container swiper">
+        <div class="slide-content swiper-wrapper">
+          <div class="overlay swiper-slide">
+            <img src="./images/show-1.webp" alt="" srcset="" />
+            <div class="img-overlay">
+              <p>Let's Travel the World With us</p>
+              <h2><span>Discover</span>The World</h2>
+              <h2>With Our Guide</h2>
+            </div>
+          </div>
+          <div class="overlay swiper-slide">
+            <img src="./images/show-2.jpg" alt="" srcset="" />
+            <div class="img-overlay">
+              <p>Let's Travel the World With us</p>
+              <h2><span>Discover</span>The World</h2>
+              <h2>With Our Guide</h2>
+            </div>
+          </div>
+          <div class="overlay swiper-slide">
+            <img src="./images/show-3.jpg" alt="" srcset="" />
+            <div class="img-overlay">
+              <p>Let's Travel the World With us</p>
+              <h2>Discover The World</h2>
+              <h2>With Our <span>Travelo</span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section id="location-search">
+      <div class="container">
+        <div class="form-wrapper">
+          <form action="#">
+            <input type="text" placeholder="where to?" class="form-control" />
+            <select class="form-control">
+              <option value="Destination">Destination</option>
+              <option value="Greece">Greece</option>
+              <option value="London">London</option>
+              <option value="Maldvies">Maldvies</option>
+              <option value="Paris">Paris</option>
+            </select>
+            <select class="form-control">
+              <option value="Duration">Duration</option>
+              <option value="1 Day">1 Day Tour</option>
+              <option value="2-4 Days">2-4 Days Tour</option>
+              <option value="5-7 Days">5-7 Days Tour</option>
+              <option value="7+ Days">7+ Days</option>
+            </select>
+            <button type="button" class="primary-btn">Search Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="about-content-wrapper">
+          <div class="agency-left-side">
+            <p class="heading-normal-txt">THE BEST TRAVEY AGENCY</p>
+            <h2 class="headings">
+              DUSCOVER THE <span>WORLD</span> WITH OUR GUIDE
+            </h2>
+            <p class="lead">
+              You can choose any country with good tourism. Agency elementum
+              sesue the aucan vestibulum aliquam justo in sapien rutrum
+              volutpat. Donec in quis the penatibus et velit. Donec id velit ac
+              arcu posuere blane.
+            </p>
+            <br />
+            <p class="lead">
+              Hotel ut nisl quam nestibulum ac quam nec adio elementum ceisue
+              the aiss varius natoque penatibus et magnis dis parturient monte.
+            </p>
+            <ul>
+              <li>
+                <div class="icons">
+                  <i class="fa fa-check"></i>
+                  <p>20 Years of Experience</p>
+                </div>
+              </li>
+              <li>
+                <div class="icons">
+                  <i class="fa fa-check"></i>
+                  <p>150 Tour Destination</p>
+                </div>
+              </li>
+              <li>
+                <div class="icons">
+                  <i class="fa fa-phone-volume"></i>
+                  <p>855 333 4444</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="agency-right-side">
+            <div class="img">
+              <img src="./images/about.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="choose-place">
+      <div class="container">
+        <p class="heading-normal-txt">CHOOSE YOUR PLACE</p>
+        <h2 class="headings">POPULAR <span>TOURS</span></h2>
+        <div class="choose-wrapper">
+          <div class="img-left-side">
+            <div class="lg-img">
+              <img src="./images/maldvies.jpg" alt="" />
+              <div class="img-content">
+                <h2>Maldvies Tours</h2>
+                <div class="hidden-content">
+                  <span><i class="fa fa-clock"></i> 10 Days</span>
+                  <span><i class="fa fa-user"></i> 12+</span>
+                  <span><i class="fa fa-location-dot"></i> Maldvies</span>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>$2.500</p>
+              </div>
+            </div>
+          </div>
+          <div class="img-right-side">
+            <div class="lg-img">
+              <img src="./images/itlay.jpg" alt="" />
+              <div class="img-content">
+                <h2>Itlay Tours</h2>
+                <div class="hidden-content">
+                  <span><i class="fa fa-clock"></i> 10 Days</span>
+                  <span><i class="fa fa-user"></i> 12+</span>
+                  <span><i class="fa fa-location-dot"></i> Itlay</span>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>$2.500</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row-wise-img">
+          <div class="lg-img">
+            <img src="./images/france.jpg" alt="" />
+            <div class="img-content">
+              <h2>France Tours</h2>
+              <div class="hidden-content">
+                <span><i class="fa fa-clock"></i> 10 Days</span>
+                <span><i class="fa fa-user"></i> 12+</span>
+                <span><i class="fa fa-location-dot"></i> France</span>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>$400</p>
+            </div>
+          </div>
+          <div class="lg-img">
+            <img src="./images/greek.jpg" alt="" />
+            <div class="img-content">
+              <h2>Greece Tours</h2>
+              <div class="hidden-content">
+                <span><i class="fa fa-clock"></i> 10 Days</span>
+                <span><i class="fa fa-user"></i> 12+</span>
+                <span><i class="fa fa-location-dot"></i> Greece</span>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>$500</p>
+            </div>
+          </div>
+          <div class="lg-img">
+            <img src="./images/canada.jpg" alt="" />
+            <div class="img-content">
+              <h2>Canada Tours</h2>
+              <div class="hidden-content">
+                <span><i class="fa fa-clock"></i> 10 Days</span>
+                <span><i class="fa fa-user"></i> 12+</span>
+                <span><i class="fa fa-location-dot"></i> Canada</span>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>$400</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="static-counter">
+      <div class="container">
+        <div class="static-wrapper">
+          <div class="static-icons">
+            <i class="fa fa-plane-departure"></i>
+            <p class="numbers" data-ceil="600">600</p>
+            <p class="txt">Flight Booking</p>
+          </div>
+          <div class="static-icons">
+            <i class="fa fa-home"></i>
+            <p class="numbers" data-ceil="250">250</p>
+            <p class="txt">Amazing Tour</p>
+          </div>
+          <div class="static-icons">
+            <i class="fa fa-ship"></i>
+            <p class="numbers" data-ceil="100">100</p>
+            <p class="txt">Cruises Booking</p>
+          </div>
+          <div class="static-icons">
+            <i class="fa fa-ticket"></i>
+            <p class="numbers" data-ceil="100">100</p>
+            <p class="txt">Ticket Booking</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="top-destination">
+      <div class="container">
+        <p class="heading-normal-txt">TOP DESTINATION</p>
+        <h2 class="headings">POPULAR <span>DESTINATION</span></h2>
+        <div class="top-destination-wrapper swiper2">
+          <div class="swiper-wrapper">
+            <div class="carousel swiper-slide">
+              <img src="./images/destination-maldvies.jpg" alt="" />
+              <div class="carousel-img-overlay">
+                <div class="img-content">
+                  <h2><i class="fa fa-location-dot"></i>Maldvies</h2>
+                  <div class="hidden-content-carousel">
+                    <span>4 Tours Packages</span>
+                    <a href="#"
+                      ><span>Explore</span><i class="fa fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>15% off</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/destination-canada.jpg" alt="" />
+              <div class="carousel-img-overlay">
+                <div class="img-content">
+                  <h2><i class="fa fa-location-dot"></i>Canada</h2>
+                  <div class="hidden-content-carousel">
+                    <span>3 Tours Packages</span>
+                    <a href="#"
+                      ><span>Explore</span><i class="fa fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>$600</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/destination-creece.jpg" alt="" />
+              <div class="carousel-img-overlay">
+                <div class="img-content">
+                  <h2><i class="fa fa-location-dot"></i>Greece</h2>
+                  <div class="hidden-content-carousel">
+                    <span>6 Tours Packages</span>
+                    <a href="#"
+                      ><span>Explore</span><i class="fa fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>New</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/destination-frence.jpg" alt="" />
+              <div class="carousel-img-overlay">
+                <div class="img-content">
+                  <h2><i class="fa fa-location-dot"></i>France</h2>
+                  <div class="hidden-content-carousel">
+                    <span>10 Tours Packages</span>
+                    <a href="#"
+                      ><span>Explore</span><i class="fa fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>$1200</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/destination-dubia.jpg" alt="" />
+              <div class="carousel-img-overlay">
+                <div class="img-content">
+                  <h2><i class="fa fa-location-dot"></i>Dubai</h2>
+                  <div class="hidden-content-carousel">
+                    <span>7 Tours Packages</span>
+                    <a href="#"
+                      ><span>Explore</span><i class="fa fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>$700</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="costa-victoria">
+      <div class="video-bg">
+        <video autoplay muted loop preload="auto">
+          <source src="./images/bg-video.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="container">
+        <div class="video-content">
+          <h2>Costa Victorial Cochin</h2>
+          <span><i class="fa fa-clock"></i> 10 Days</span>
+          <span><i class="fa fa-user"></i> 12+</span>
+          <span><i class="fa fa-location-dot"></i> Canada</span>
+        </div>
+      </div>
+    </section>
+    <section id="travel-countries">
+      <div class="container">
+        <p class="heading-normal-txt">MOST POPULAR</p>
+        <h2 class="headings">TRAVEL <span>COUNTRIES</span></h2>
+
+        <div class="travel-countries-wrapper">
+          <div class="countries-content">
+            <h2 class="secondary-headings">ITALY, EROUPE</h2>
+            <p class="lead">
+              We provide you with interesting and exciting tours to different
+              parts of the world. Orci varius natoque penatibus et magins disney
+              turien nascete ridiculus duru in the mus nellen.
+            </p>
+            <ul>
+              <div class="country-names">
+                <li><i class="fa fa-location-dot"></i>Rome</li>
+                <li><i class="fa fa-location-dot"></i>Veince</li>
+                <li><i class="fa fa-location-dot"></i>San Marine</li>
+              </div>
+              <div class="country-names">
+                <li><i class="fa fa-location-dot"></i>Milan</li>
+                <li><i class="fa fa-location-dot"></i>Florence</li>
+                <li><i class="fa fa-location-dot"></i>Parma</li>
+              </div>
+              <div class="country-names">
+                <li><i class="fa fa-location-dot"></i>Verona</li>
+                <li><i class="fa fa-location-dot"></i>Perugia</li>
+                <li><i class="fa fa-location-dot"></i>Aosta</li>
+              </div>
+            </ul>
+            <button type="button" class="primary-btn">
+              All Tours <i class="fa fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="slider-content-wrapper swiper3">
+            <div class="swiper-wrapper">
+              <div class="carousel swiper-slide">
+                <img src="./images/mostrome.jpg" alt="" />
+                <div class="carousel-img-overlay">
+                  <div class="img-content">
+                    <h2>Rome</h2>
+                    <div class="hidden-content-carousel">
+                      <span><i class="fa fa-clock"></i> 03 Days</span>
+                      <span><i class="fa fa-user"></i> 10+</span>
+                      <span><i class="fa fa-location-dot"></i> Itlay</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-label">
+                  <p>$1.500</p>
+                </div>
+              </div>
+              <div class="carousel swiper-slide">
+                <img src="./images/most-venia.jpg" alt="" />
+                <div class="carousel-img-overlay">
+                  <div class="img-content">
+                    <h2>Venice</h2>
+                    <div class="hidden-content-carousel">
+                      <span><i class="fa fa-clock"></i> 04 Days</span>
+                      <span><i class="fa fa-user"></i> 8+</span>
+                      <span><i class="fa fa-location-dot"></i> Itlay</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-label">
+                  <p>$1.300</p>
+                </div>
+              </div>
+              <div class="carousel swiper-slide">
+                <img src="./images/perugia.jpg" alt="" />
+                <div class="carousel-img-overlay">
+                  <div class="img-content">
+                    <h2>Perugia</h2>
+                    <div class="hidden-content-carousel">
+                      <span><i class="fa fa-clock"></i> 04 Days</span>
+                      <span><i class="fa fa-user"></i> 5+</span>
+                      <span><i class="fa fa-location-dot"></i> Itlay</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-label">
+                  <p>$1.750</p>
+                </div>
+              </div>
+              <div class="carousel swiper-slide">
+                <img src="./images/parma.jpg" alt="" />
+                <div class="carousel-img-overlay">
+                  <div class="img-content">
+                    <h2>Parma</h2>
+                    <div class="hidden-content-carousel">
+                      <span><i class="fa fa-clock"></i> 07 Days</span>
+                      <span><i class="fa fa-user"></i> 8+</span>
+                      <span><i class="fa fa-location-dot"></i> Itlay</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-label">
+                  <p>$12.50</p>
+                </div>
+              </div>
+              <div class="carousel swiper-slide">
+                <img src="./images/Aosta.jpg" alt="" />
+                <div class="carousel-img-overlay">
+                  <div class="img-content">
+                    <h2>Aosta</h2>
+                    <div class="hidden-content-carousel">
+                      <span><i class="fa fa-clock"></i> 09 Days</span>
+                      <span><i class="fa fa-user"></i> 10+</span>
+                      <span><i class="fa fa-location-dot"></i> Itlay</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-label">
+                  <p>$3050</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="france-content">
+          <div class="slider-content-wrapper swiper3">
+            <div class="swiper-wrapper">
+              <div class="carousel swiper-slide">
+                <img src="./images/paris.jpg" alt="" />
+                <div class="carousel-img-overlay">
+                  <div class="img-content">
+                    <h2>Paris</h2>
+                    <div class="hidden-content-carousel">
+                      <span><i class="fa fa-clock"></i> 07 Days</span>
+                      <span><i class="fa fa-user"></i> 12+</span>
+                      <span><i class="fa fa-location-dot"></i> France</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-label">
+                  <p>$1.300</p>
+                </div>
+              </div>
+              <div class="carousel swiper-slide">
+                <img src="./images/lyon.jpg" alt="" />
+                <div class="carousel-img-overlay">
+                  <div class="img-content">
+                    <h2>Lyon</h2>
+                    <div class="hidden-content-carousel">
+                      <span><i class="fa fa-clock"></i> 04 Days</span>
+                      <span><i class="fa fa-user"></i> 8+</span>
+                      <span><i class="fa fa-location-dot"></i> France</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-label">
+                  <p>$1.800</p>
+                </div>
+              </div>
+              <div class="carousel swiper-slide">
+                <img src="./images/cannes.jpg" alt="" />
+                <div class="carousel-img-overlay">
+                  <div class="img-content">
+                    <h2>Cannes</h2>
+                    <div class="hidden-content-carousel">
+                      <span><i class="fa fa-clock"></i> 04 Days</span>
+                      <span><i class="fa fa-user"></i> 5+</span>
+                      <span><i class="fa fa-location-dot"></i> France</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-label">
+                  <p>$1.150</p>
+                </div>
+              </div>
+              <div class="carousel swiper-slide">
+                <img src="./images/normandy.jpg" alt="" />
+                <div class="carousel-img-overlay">
+                  <div class="img-content">
+                    <h2>Normandy</h2>
+                    <div class="hidden-content-carousel">
+                      <span><i class="fa fa-clock"></i> 07 Days</span>
+                      <span><i class="fa fa-user"></i> 8+</span>
+                      <span><i class="fa fa-location-dot"></i> France</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-label">
+                  <p>$19.50</p>
+                </div>
+              </div>
+              <div class="carousel swiper-slide">
+                <img src="./images/marseille.jpg" alt="" />
+                <div class="carousel-img-overlay">
+                  <div class="img-content">
+                    <h2>Marseille</h2>
+                    <div class="hidden-content-carousel">
+                      <span><i class="fa fa-clock"></i> 09 Days</span>
+                      <span><i class="fa fa-user"></i> 10+</span>
+                      <span><i class="fa fa-location-dot"></i> France</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-label">
+                  <p>$3050</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="countries-content">
+            <h2 class="secondary-headings">FRANCE, EROUPE</h2>
+            <p class="lead">
+              We provide you with interesting and exciting tours to different
+              parts of the world. Orci varius natoque penatibus et magins disney
+              turien nascete ridiculus duru in the mus nellen.
+            </p>
+            <ul>
+              <div class="country-names">
+                <li><i class="fa fa-location-dot"></i>Paris</li>
+                <li><i class="fa fa-location-dot"></i>Orleans</li>
+                <li><i class="fa fa-location-dot"></i>Nantes</li>
+              </div>
+              <div class="country-names">
+                <li><i class="fa fa-location-dot"></i>Lyon</li>
+                <li><i class="fa fa-location-dot"></i>Bordeaux</li>
+                <li><i class="fa fa-location-dot"></i>Toulouse</li>
+              </div>
+              <div class="country-names">
+                <li><i class="fa fa-location-dot"></i>Marseille</li>
+                <li><i class="fa fa-location-dot"></i>Cannes</li>
+                <li><i class="fa fa-location-dot"></i>Nice</li>
+              </div>
+            </ul>
+            <button type="button" class="primary-btn">
+              All Tours <i class="fa fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="travel-blog">
+      <div class="container">
+        <p class="heading-normal-txt">TRAVEL BLOG</p>
+        <h2 class="headings">TRAVEL <span>EXPERIENCE</span></h2>
+        <div class="top-destination-wrapper swiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide blog">
+              <img src="./images/blog1.jpg" alt="" />
+              <div class="blog-img-overlay">
+                <div class="blog-img-content">
+                  <h2>Tours</h2>
+                  <p class="lead">Small Group Tours with Flights From USA</p>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>05 Dec</p>
+              </div>
+            </div>
+            <div class="swiper-slide blog">
+              <img src="./images/blog2.jpg" alt="" />
+              <div class="blog-img-overlay">
+                <div class="blog-img-content">
+                  <h2>Tours</h2>
+                  <p class="lead">Small Group Tours with Flights From USA</p>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>15 Dec</p>
+              </div>
+            </div>
+            <div class="swiper-slide blog">
+              <img src="./images/blog3.jpg" alt="" />
+              <div class="blog-img-overlay">
+                <div class="blog-img-content">
+                  <h2>Tours</h2>
+                  <p class="lead">Small Group Tours with Flights From USA</p>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>27 Dec</p>
+              </div>
+            </div>
+            <div class="swiper-slide blog">
+              <img src="./images/blog4.jpg" alt="" />
+              <div class="blog-img-overlay">
+                <div class="blog-img-content">
+                  <h2>Tours</h2>
+                  <p class="lead">Small Group Tours with Flights From USA</p>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>19 Dec</p>
+              </div>
+            </div>
+            <div class="swiper-slide blog">
+              <img src="./images/blog5.jpg" alt="" />
+              <div class="blog-img-overlay">
+                <div class="blog-img-content">
+                  <h2>Tours</h2>
+                  <p class="lead">Small Group Tours with Flights From USA</p>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>23 Dec</p>
+              </div>
+            </div>
+            <div class="swiper-slide blog">
+              <img src="./images/blog6.jpg" alt="" />
+              <div class="blog-img-overlay">
+                <div class="blog-img-content">
+                  <h2>Tours</h2>
+                  <p class="lead">Small Group Tours with Flights From USA</p>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>23 Dec</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials">
+      <div class="container">
+        <p class="heading-normal-txt review">TRAVEL BLOG</p>
+        <h2 class="headings">TRAVEL EXPERIENCE</h2>
+        <div class="testimonails-wrapper swiper4">
+          <div class="swiper-wrapper">
+            <div class="testimonails-content swiper-slide">
+              <p class="lead">
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                ducimus ipsam! Quia deleniti voluptas labore odio eveniet. Nihil
+                officiis quasi fuga recusandae architecto sequi laudantium quod
+                voluptatem, commodi impedit. Voluptatum!
+                <i class="fa-solid fa-quote-right"></i>
+              </p>
+              <div class="test-img">
+                <img src="./images/pic-1.png" alt="" />
+              </div>
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>David</p>
+                <p class="guest">Guest Review</p>
+              </div>
+            </div>
+            <div class="testimonails-content swiper-slide">
+              <p class="lead">
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                ducimus ipsam! Quia deleniti voluptas labore odio eveniet. Nihil
+                officiis quasi fuga recusandae architecto sequi laudantium quod
+                voluptatem, commodi impedit. Voluptatum!
+                <i class="fa-solid fa-quote-right"></i>
+              </p>
+              <div class="test-img">
+                <img src="./images/pic-2.png" alt="" />
+              </div>
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>Emaily</p>
+                <p class="guest">Guest Review</p>
+              </div>
+            </div>
+            <div class="testimonails-content swiper-slide">
+              <p class="lead">
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                ducimus ipsam! Quia deleniti voluptas labore odio eveniet. Nihil
+                officiis quasi fuga recusandae architecto sequi laudantium quod
+                voluptatem, commodi impedit. Voluptatum!
+                <i class="fa-solid fa-quote-right"></i>
+              </p>
+              <div class="test-img">
+                <img src="./images/pic-3.png" alt="" />
+              </div>
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>Michael</p>
+                <p class="guest">Guest Review</p>
+              </div>
+            </div>
+            <div class="testimonails-content swiper-slide">
+              <p class="lead">
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                ducimus ipsam! Quia deleniti voluptas labore odio eveniet. Nihil
+                officiis quasi fuga recusandae architecto sequi laudantium quod
+                voluptatem, commodi impedit. Voluptatum!
+                <i class="fa-solid fa-quote-right"></i>
+              </p>
+              <div class="test-img">
+                <img src="./images/pic-4.png" alt="" />
+              </div>
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>Jessica</p>
+                <p class="guest">Guest Review</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="ft-content">
+            <div class="icon">
+              <i class="fa fa-phone-volume"></i>
+            </div>
+            <div class="content">
+              <p class="lead">Call us</p>
+              <p>+1 123-456-0606</p>
+            </div>
+          </div>
+          <div class="ft-content">
+            <div class="icon">
+              <i class="fa fa-envelope-open"></i>
+            </div>
+            <div class="content">
+              <p class="lead">write for us</p>
+              <p>admin@onlineittuts.com</p>
+            </div>
+          </div>
+          <div class="ft-content">
+            <div class="icon">
+              <i class="fa fa-map-location"></i>
+            </div>
+            <div class="content">
+              <p class="lead">Address</p>
+              <p>24 King St, Sc 29401 USA</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-wrapper">
+          <div class="about">
+            <div class="img-logo">
+              <h1>TRAVOL<i class="fa-solid fa-plane-departure"></i></h1>
+            </div>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              maxime illum quibusdam, soluta harum reprehenderit tenetur iste
+              adipisci inventore provident.
+            </p>
+            <div class="socail-icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-pinterest"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+          <div class="links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#about">About</a></li>
+            <li><a href="#choose-place">Tours</a></li>
+            <li><a href="#top-destination">Destination</a></li>
+            <li><a href="#travel-countries">Gallery</a></li>
+            <li><a href="#footer">Contact</a></li>
+            </ul>
+          </div>
+          <div class="subscribe">
+            <h2>Subscribe</h2>
+            <p class="lead">
+              Signup for our monthly blog letter to stay informed about travel
+              and tours.
+            </p>
+            <form action="#">
+              <input type="text" placeholder="Email Address">
+              <button type="button" class="button">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer">
+          <p>&copy; 2025 OnlineITtuts. All Right Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="scroll-top">
+      <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./Js/swiper.js"></script>
+  </body>
+</html>
